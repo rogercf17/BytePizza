@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline">Bem vindo!</h1>
-    </>
-  )
-}
+import AppRoutes from "./routes/AppRoutes";
 
-export default App
+export default function App() {
+  return <AppRoutes />
+}
